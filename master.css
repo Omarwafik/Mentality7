@@ -1,0 +1,65 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(47, 64, 53);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+.container {
+  margin: 50px auto;
+  width: 400px;
+  background-color: white;
+  padding: 10px 10px 10px 0;
+  border: 10px solid rgb(103, 176, 102);
+  border-radius: 30px;
+}
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 300px;
+  padding: 20px 20px 20px 50px;
+  margin: 25px;
+  border: none;
+  background-color: #eee;
+  border-radius: 30px;
+}
+.one,
+.two {
+  position: relative;
+}
+#icon1 {
+  position: absolute;
+  left: 45px;
+  top: 42px;
+  font-size: larger;
+}
+.three input {
+  padding: 20px;
+  width: 370px;
+  background-color: rgb(109, 205, 109);
+}
+.three input:hover {
+  background-color: crimson;
+  color: white;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-delay: 10ms;
+}
+.special {
+  color: rgb(109, 205, 109);
+}
+.special:hover {
+  color: crimson;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  transition-delay: 10ms;
+}
+p {
+  margin-bottom: 50px;
+}
+.two input::placeholder {
+  font-size: 25px;
+}
